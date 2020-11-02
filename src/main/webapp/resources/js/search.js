@@ -1,0 +1,10 @@
+$(function(){
+	$("#search").click(function(){
+		$("#search-main").show();
+	});
+	$("#close").click(function(){
+		$("#search-main").hide();
+		$("#content").val("");
+		$("#option").val(0);
+	});
+});
